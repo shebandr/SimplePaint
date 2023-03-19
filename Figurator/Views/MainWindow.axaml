@@ -147,12 +147,12 @@
 			<Border Classes="b">
 				<Grid RowDefinitions="*,30*,1.24*" ColumnDefinitions="*,*" Classes="grid">
 					<ComboBox Name="comboBoxShape" SelectedIndex="{Binding SelectedShaper}" Width="460" Grid.ColumnSpan="2">			
-						<ComboBoxItem>Прямая линия (нажми для выбора)</ComboBoxItem>
-						<ComboBoxItem>Ломанная линия (нажми для выбора)</ComboBoxItem>
-						<ComboBoxItem>Многоугольник (нажми для выбора)</ComboBoxItem>
-						<ComboBoxItem>Прямоугольник (нажми для выбора)</ComboBoxItem>
-						<ComboBoxItem>Эллипс (нажми для выбора)</ComboBoxItem>
-						<ComboBoxItem>Составная фигура (нажми для выбора)</ComboBoxItem>
+						<ComboBoxItem>Прямая линия </ComboBoxItem>
+						<ComboBoxItem>Ломанная линия </ComboBoxItem>
+						<ComboBoxItem>Многоугольник </ComboBoxItem>
+						<ComboBoxItem>Прямоугольник </ComboBoxItem>
+						<ComboBoxItem>Эллипс </ComboBoxItem>
+						<ComboBoxItem>Составная фигура </ComboBoxItem>
 					</ComboBox>
 					<ContentControl Grid.Row="1" Grid.ColumnSpan="2" Content="{Binding Content}"/>
 					<Button Name="buttonAdd" Command="{Binding Add}" Grid.Row="2">Добавить</Button>
